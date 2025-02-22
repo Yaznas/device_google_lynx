@@ -25,9 +25,6 @@ PRODUCT_NAME := derp_$(DEVICE_CODENAME)
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Quick Tap
-TARGET_SUPPORTS_QUICK_TAP := true
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="lynx-user 15 AP4A.250205.002 12821496 release-keys" \
     BuildFingerprint=google/lynx/lynx:15/AP4A.250205.002/12821496:user/release-keys \

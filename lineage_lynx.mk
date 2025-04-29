@@ -31,3 +31,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
+
+DERPFEST_BUILD_TYPE := Official

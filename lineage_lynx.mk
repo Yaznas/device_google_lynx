@@ -26,8 +26,8 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="lynx-user 16 BP2A.250805.005 13691446 release-keys" \
-    BuildFingerprint=google/lynx/lynx:16/BP2A.250805.005/13691446:user/release-keys \
+    BuildDesc="lynx-user 16 BP3A.250905.014 13873947 release-keys" \
+    BuildFingerprint=google/lynx/lynx:16/BP3A.250905.014/13873947/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)
